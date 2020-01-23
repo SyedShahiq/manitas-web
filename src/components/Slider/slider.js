@@ -1,7 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React, { Component } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-
+import './slider.css';
 class Slider extends Component {
     render() {
         return (
