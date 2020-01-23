@@ -1,6 +1,6 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
 import React, { Component } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 class Slider extends Component {
     render() {
@@ -13,7 +13,8 @@ class Slider extends Component {
                         alt="First slide"
                     />
                     <Carousel.Caption>
-                        <h3>First slide label</h3>
+                        <h2>{this.props.content.slider.first.heading_1}</h2>
+                        <h3>{this.props.content.slider.first.heading_2}</h3>
                         <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
@@ -21,11 +22,12 @@ class Slider extends Component {
                     <img
                         className="d-block w-100"
                         src={require('./images/images.jpeg')}
-                        alt="Third slide"
+                        alt="Second slide"
                     />
 
                     <Carousel.Caption>
-                        <h3>Second slide label</h3>
+                        <h2>{this.props.content.slider.first.heading_1}</h2>
+                        <h3>{this.props.content.slider.first.heading_2}</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
