@@ -1,8 +1,9 @@
 {
-    "slider":{
-        "first":{
-            "heading_1":"Get Your Tasks Done!",
-            "heading_2":"Let Us Help You"
+    "slider": {
+        "first": {
+            "heading_1": "Get Your Tasks Done!",
+            "heading_2": "Let us help you",
+            "heading_3": "Or you can provide your services and earn MORE!"
         }
     }
 }
