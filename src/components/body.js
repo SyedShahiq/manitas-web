@@ -6,7 +6,6 @@ class Body extends Component {
     return (
       <main role="main" className="main">
         <Slider content={this.props.content} />
-        <p>{this.props.language}</p>
       </main>
     );
   }
