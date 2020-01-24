@@ -3,7 +3,7 @@ import './App.css';
 import Body from './components/body';
 import Header from './components/header';
 import en from './content/en.json';
-import fr from './content/fr.json';
+import es from './content/es.json';
 class App extends Component {
   state = {
     "language": "en",
@@ -12,7 +12,7 @@ class App extends Component {
   languageChanger = (language) => {
     this.setState({
       "language": language,
-      "content": language === 'en' ? en : fr
+      "content": language === 'en' ? en : es
     })
   }
   render() {
