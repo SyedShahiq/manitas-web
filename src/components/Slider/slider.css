@@ -1,6 +1,47 @@
 .carousel-caption {
     bottom: 30%;
 }
+.carousel-caption .download i {
+    margin-right: 5px;
+}
+.carousel-caption .download .apple {
+    z-index: 11;
+    background: linear-gradient(to left, #91be01, #91be01);
+    border-radius: 99px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 10px 20px 0px;
+    line-height: 44px;
+    font-weight: 900;
+    font-size: 14px;
+    padding: 10px 50px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    white-space: normal;
+    filter: blur(0px) grayscale(0%) brightness(100%);
+    opacity: 1;
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    transform-origin: 50% 50% 0px;
+    border-width: 0px;
+    margin-right: 20px;
+}
+.carousel-caption .download .google-playstore {
+    z-index: 11;
+    background: linear-gradient(to left, #f8931f, #f8931f);
+    border-radius: 99px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 10px 20px 0px;
+    line-height: 44px;
+    font-weight: 900;
+    font-size: 14px;
+    padding: 10px 50px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    white-space: normal;
+    filter: blur(0px) grayscale(0%) brightness(100%);
+    opacity: 1;
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    transform-origin: 50% 50% 0px;
+    border-width: 0px;
+}
+
 .carousel-caption h1 {
     font-size: 3rem;
 }
@@ -8,7 +49,7 @@
     opacity: 0.8;
 }
 .first {
-    background-image:url('./images/slider2.jpg');
+    background-image:url('./images/slider4.jpg');
     background-color: transparent;
     background-repeat: no-repeat;
     background-size: cover;
@@ -22,7 +63,7 @@
     z-index: 20;
 }
 .second {
-    background-image:url('./images/slider4.jpg');
+    background-image:url('./images/slider2.jpg');
     background-color: transparent;
     background-repeat: no-repeat;
     background-size: cover;
