@@ -21,7 +21,7 @@ class Service extends Component {
                     onMouseEnter={this.setColoredImage}
                     onMouseLeave={this.unsetColoredImage}
                 >
-                    <img height="200" width="200" src={require('./images/' + this.state.image_src)}></img>
+                    <img height="200" width="200" alt="service" src={require('./images/' + this.state.image_src)}></img>
                 </div>
             </React.Fragment>
         )

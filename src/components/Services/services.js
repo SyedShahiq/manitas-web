@@ -3,6 +3,74 @@ import './services.css';
 import Service from './service';
 
 class Services extends Component {
+  constructor(props) {
+    super(props);
+    this.services = [
+      {
+        colored: 'air-conditioning_colored-en.png',
+        uncolored: 'air-conditioning-en.png'
+      },
+      {
+        colored: 'carpenter_colored-en.png',
+        uncolored: 'carpenter-en.png'
+      },
+      {
+        colored: 'cleaning_colored-en.png',
+        uncolored: 'cleaning-en.png'
+      },
+      {
+        colored: 'doors_colored-en.png',
+        uncolored: 'doors-en.png'
+      },
+      {
+        colored: 'elec_dev_colored-en.png',
+        uncolored: 'elec_dev-en.png'
+      },
+      {
+        colored: 'elect_colored-en.png',
+        uncolored: 'elect-en.png'
+      },
+      {
+        colored: 'garden_colored-en.png',
+        uncolored: 'garden-en.png'
+      },
+      {
+        colored: 'handyman_colored-en.png',
+        uncolored: 'handyman-en.png'
+      },
+      {
+        colored: 'homeworks_colored-en.png',
+        uncolored: 'homeworks-en.png'
+      },
+      {
+        colored: 'lock_colored-en.png',
+        uncolored: 'lock-en.png'
+      },
+      {
+        colored: 'moving_service_colored-en.png',
+        uncolored: 'moving_service-en.png'
+      },
+      {
+        colored: 'others_colored-en.png',
+        uncolored: 'others-en.png'
+      },
+      {
+        colored: 'painting_colored-en.png',
+        uncolored: 'painting-en.png'
+      },
+      {
+        colored: 'plumbing_colored-en.png',
+        uncolored: 'plumbing-en.png'
+      },
+      {
+        colored: 'upholstery_colored-en.png',
+        uncolored: 'upholstery-en.png'
+      },
+    ]
+    this.provided_services = this.services.map((service, key) =>
+    <Service image_src_uncolored={service.uncolored} image_src_colored={service.colored} />
+    );
+  }
   render() {
     return (
       <React.Fragment>
@@ -15,21 +83,7 @@ class Services extends Component {
         </div>
         <div className="container">
           <div className="row">
-            <Service image_src_uncolored="air-conditioning-en.png" image_src_colored="air-conditioning_colored-en.png" />
-            <Service image_src_uncolored="carpenter-en.png" image_src_colored="carpenter_colored-en.png" />
-            <Service image_src_uncolored="cleaning-en.png" image_src_colored="cleaning_colored-en.png" />
-            <Service image_src_uncolored="doors-en.png" image_src_colored="doors_colored-en.png" />
-            <Service image_src_uncolored="elec_dev-en.png" image_src_colored="elec_dev_colored-en.png" />
-            <Service image_src_uncolored="elect-en.png" image_src_colored="elect_colored-en.png" />
-            <Service image_src_uncolored="garden-en.png" image_src_colored="garden_colored-en.png" />
-            <Service image_src_uncolored="handyman-en.png" image_src_colored="handyman_colored-en.png" />
-            <Service image_src_uncolored="homeworks-en.png" image_src_colored="homeworks_colored-en.png" />
-            <Service image_src_uncolored="lock-en.png" image_src_colored="lock_colored-en.png" />
-            <Service image_src_uncolored="moving_service-en.png" image_src_colored="moving_service_colored-en.png" />
-            <Service image_src_uncolored="others-en.png" image_src_colored="others_colored-en.png" />
-            <Service image_src_uncolored="painting-en.png" image_src_colored="painting_colored-en.png" />
-            <Service image_src_uncolored="plumbing-en.png" image_src_colored="plumbing_colored-en.png" />
-            <Service image_src_uncolored="upholstery-en.png" image_src_colored="upholstery_colored-en.png" />
+            {this.provided_services}
           </div>
         </div>
       </React.Fragment>
