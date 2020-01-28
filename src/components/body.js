@@ -7,7 +7,7 @@ class Body extends Component {
     return (
       <main role="main" className="main">
         <Slider content={this.props.content} />
-        <Services />
+        <Services language={this.props.language} />
       </main>
     );
   }

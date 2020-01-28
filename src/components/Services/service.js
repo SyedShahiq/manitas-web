@@ -2,16 +2,11 @@ import React, { Component } from 'react';
 import './service.css'
 class Service extends Component {
     state = {
-        image_src: this.props.image_src_uncolored
+        is_colored: false
     }
     setColoredImage = () => {
         this.setState({
-            image_src: this.props.image_src_colored
-        })
-    }
-    unsetColoredImage = () => {
-        this.setState({
-            image_src: this.props.image_src_uncolored
+            is_colored: !this.state.is_colored
         })
     }
     render() {
@@ -19,9 +14,11 @@ class Service extends Component {
             <React.Fragment>
                 <div className="service col-lg-2 col-md-2 col-sm-12 col-xs-12"
                     onMouseEnter={this.setColoredImage}
-                    onMouseLeave={this.unsetColoredImage}
+                    onMouseLeave={this.setColoredImage}
                 >
-                    <img height="200" width="200" alt="service" src={require('./images/' + this.state.image_src)}></img>
+                    <img className={this.state.is_colored ? 'd-none' : ''} height="200" width="200" alt="service" src={require('./images/' + this.props.image_src_uncolored)}></img>
+                    <img className={!this.state.is_colored ? 'd-none' : ''} height="200" width="200" alt="service" src={require('./images/' + this.props.image_src_colored)}></img>
+                    <p>{this.props.heading}</p>
                 </div>
             </React.Fragment>
         )
