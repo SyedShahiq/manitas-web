@@ -1,0 +1,20 @@
+.wrapper {
+	width: 100%;
+	float: left;
+	height: 100%;
+}
+.wrapper > .column {
+	width: 50%;
+	position: absolute;
+	/* height: 100%; */
+	z-index: 1;
+	text-align:center;
+}
+.first-col {
+	background: #cdcdcd;
+	left: 0;
+}
+.second-col {
+	background: #dadada;
+	left: 50%;
+}
