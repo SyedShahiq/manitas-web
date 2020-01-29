@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './service.css'
+import './service.css';
 class Service extends Component {
     state = {
         is_colored: false
@@ -18,7 +18,7 @@ class Service extends Component {
                 >
                     <img className={this.state.is_colored ? 'd-none' : ''} height="200" width="200" alt="service" src={require('./images/' + this.props.image_src_uncolored)}></img>
                     <img className={!this.state.is_colored ? 'd-none' : ''} height="200" width="200" alt="service" src={require('./images/' + this.props.image_src_colored)}></img>
-                    <p>{this.props.heading}</p>
+                    <h5 className="service-title">{this.props.heading}</h5>
                 </div>
             </React.Fragment>
         )

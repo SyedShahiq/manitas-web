@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import './services.css';
 import Service from './service';
+import './services.css';
 
 class Services extends Component {
   constructor(props) {
@@ -10,91 +10,91 @@ class Services extends Component {
         colored: 'air-conditioning_colored-en.png',
         uncolored: 'air-conditioning-en.png',
         'en': 'Air Conditioning',
-        'es': 'Es Air Conditioning'
+        'es': 'Aire acondicionado'
       },
       {
         colored: 'carpenter_colored-en.png',
         uncolored: 'carpenter-en.png',
-        'en': 'Air Conditioning',
-        'es': 'Es Air Conditioning'
+        'en': 'Carpenter',
+        'es': 'Carpintero'
       },
       {
         colored: 'cleaning_colored-en.png',
         uncolored: 'cleaning-en.png',
-        en: 'Air Conditioning',
-        es: 'Es Air Conditioning'
+        en: 'Cleaning',
+        es: 'Limpieza'
       },
       {
         colored: 'doors_colored-en.png',
         uncolored: 'doors-en.png',
-        en: 'Air Conditioning',
-        es: 'Es Air Conditioning'
+        en: 'Doors, Windows',
+        es: 'Puertas, Ventanas'
       },
       {
         colored: 'elec_dev_colored-en.png',
         uncolored: 'elec_dev-en.png',
-        en: 'Air Conditioning',
-        es: 'Es Air Conditioning'
+        en: 'Electrical Devices',
+        es: 'Aparatos eléctricos'
       },
       {
         colored: 'elect_colored-en.png',
         uncolored: 'elect-en.png',
-        en: 'Air Conditioning',
-        es: 'Es Air Conditioning'
+        en: 'Electricity',
+        es: 'Electricidad'
       },
       {
         colored: 'garden_colored-en.png',
         uncolored: 'garden-en.png',
-        en: 'Air Conditioning',
-        es: 'Es Air Conditioning'
+        en: 'Garden & Outdoors',
+        es: 'Jardín y aire libre'
       },
       {
         colored: 'handyman_colored-en.png',
         uncolored: 'handyman-en.png',
-        en: 'Air Conditioning',
-        es: 'Es Air Conditioning'
+        en: 'Handyman',
+        es: 'Personal de mantenimiento'
       },
       {
         colored: 'homeworks_colored-en.png',
         uncolored: 'homeworks-en.png',
-        en: 'Air Conditioning',
-        es: 'Es Air Conditioning'
+        en: 'Home Works',
+        es: 'Tareas escolares'
       },
       {
         colored: 'lock_colored-en.png',
         uncolored: 'lock-en.png',
-        en: 'Air Conditioning',
-        es: 'Es Air Conditioning'
+        en: 'Locksmith',
+        es: 'Cerrajero'
       },
       {
         colored: 'moving_service_colored-en.png',
         uncolored: 'moving_service-en.png',
-        en: 'Air Conditioning',
-        es: 'Es Air Conditioning'
+        en: 'Moving Service',
+        es: 'Servicio de mudanzas'
       },
       {
         colored: 'others_colored-en.png',
         uncolored: 'others-en.png',
-        en: 'Air Conditioning',
-        es: 'Es Air Conditioning'
+        en: 'Others',
+        es: 'Otras'
       },
       {
         colored: 'painting_colored-en.png',
         uncolored: 'painting-en.png',
-        en: 'Air Conditioning',
-        es: 'Es Air Conditioning'
+        en: 'Painting',
+        es: 'Pintura'
       },
       {
         colored: 'plumbing_colored-en.png',
         uncolored: 'plumbing-en.png',
-        en: 'Air Conditioning',
-        es: 'Es Air Conditioning'
+        en: 'Plumbing',
+        es: 'Plomería'
       },
       {
         colored: 'upholstery_colored-en.png',
         uncolored: 'upholstery-en.png',
-        en: 'Air Conditioning',
-        es: 'Es Air Conditioning'
+        en: 'Upholstery',
+        es: 'Tapicería'
       },
     ]
   }
