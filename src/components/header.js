@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './header.css';
+import NavbarItem from './Navbar/NavbarItem';
 
 class Header extends Component {
   render() {
@@ -15,12 +16,8 @@ class Header extends Component {
 
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ml-auto">
-              <li className="nav-item">
-                <a className="nav-link" href="#services">Services</a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#why-us">Why Us</a>
-              </li>
+              <NavbarItem ref_link="services" content={this.props.content.header.services}/>
+              <NavbarItem ref_link="why-us" content={this.props.content.header.why_us}/>
               <li className="nav-item dropdown">
                 <a className="nav-link dropdown-toggle" href="/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   {this.props.language}
