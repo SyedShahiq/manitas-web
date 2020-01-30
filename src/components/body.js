@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Slider from './Slider/slider';
 import Services from './Services/services';
+import Slider from './Slider/slider';
 import WhyUs from './Whyus/whyus';
 
 class Body extends Component {
@@ -9,7 +9,7 @@ class Body extends Component {
       <main role="main" className="main">
         <Slider content={this.props.content} />
         <Services language={this.props.language} />
-        <WhyUs />
+        <WhyUs content={this.props.content} />
       </main>
     );
   }
