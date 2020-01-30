@@ -6,15 +6,24 @@
 .wrapper > .column {
 	width: 50%;
 	position: absolute;
-	/* height: 100%; */
 	z-index: 1;
 	text-align:center;
 }
 .first-col {
-	background: #cdcdcd;
+	background: #91be01;
+	opacity: 1;
 	left: 0;
+	height: 400px;
 }
 .second-col {
-	background: #dadada;
+	background: #f8931f;
+	opacity: 1;
 	left: 50%;
+	height: 400px;
+}
+.why-us {
+	margin-top: 30px;
+}
+#why-us h1 {
+	text-align: center;
 }
