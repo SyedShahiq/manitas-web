@@ -32,10 +32,10 @@
       $(".first-col").hover(function () {
         $(".first-col").css('z-index', '2');
         $(".second-col").css('z-index', '0');
-        $(".first-col").animate({ width: winw, left: 0 }, 3000);
+        $(".first-col").stop().animate({ width: winw, left: 0 }, 3000);
       }, function () {
         $(".first-col").css('z-index', '2');
-        $(".first-col").animate({ width: '50%', left: 0 }, 3000);
+        $(".first-col").stop().animate({ width: '50%', left: 0 }, 3000);
       });
       $(".second-col").hover(function () {
         $(".second-col").css('z-index', '2');
