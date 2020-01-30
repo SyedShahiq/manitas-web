@@ -1,4 +1,8 @@
 {
+    "header": {
+        "services": "Servicios",
+        "why_us": "Porque nosotros"
+    },
     "slider": {
         "first": {
             "heading_1": "Termine sus tareas!",
@@ -7,9 +11,9 @@
         }
     },
     "why_us": {
-        "heading":"Porque nosotros",
-        "user_a":{
-            "heading":"User A"
+        "heading": "Porque nosotros",
+        "user_a": {
+            "heading": "User A"
         }
     }
 }

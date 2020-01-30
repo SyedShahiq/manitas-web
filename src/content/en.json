@@ -1,4 +1,8 @@
 {
+    "header":{
+        "services":"Services",
+        "why_us":"Why Us"
+    },
     "slider": {
         "first": {
             "heading_1": "Get Your Tasks Done!",
