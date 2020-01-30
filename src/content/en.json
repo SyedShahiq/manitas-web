@@ -5,5 +5,11 @@
             "heading_2": "Let us help you",
             "heading_3": "Or you can provide your services and earn MORE!"
         }
+    },
+    "why_us": {
+        "heading":"Why Us",
+        "user_a":{
+            "heading":"User A"
+        }
     }
 }
