@@ -19,7 +19,8 @@ class App extends Component {
     return (
       <div>
         <Header language={this.state.language}
-          languageChanger={this.languageChanger} />
+          languageChanger={this.languageChanger}
+          content={this.state.content} />
         <Body language={this.state.language}
           content={this.state.content} />
       </div >
