@@ -13,14 +13,14 @@ class WhyUs extends Component {
                 <div id="why-us" className="why-us wrapper">
                     <h1 className="heading">{this.props.content.why_us.heading}</h1>
                     <div className="column first-col">
+                        <h1 className="user-heading">{this.props.content.why_us.user_a.heading}</h1>
                         <ul>
-                            <h1>{this.props.content.why_us.user_a.heading}</h1>
                             {user_a_points}
                         </ul>
                     </div>
                     <div className="column second-col">
+                        <h1 className="user-heading">{this.props.content.why_us.user_b.heading}</h1>
                         <ul>
-                            <h1>{this.props.content.why_us.user_b.heading}</h1>
                             {user_b_points}
                         </ul>
                     </div>

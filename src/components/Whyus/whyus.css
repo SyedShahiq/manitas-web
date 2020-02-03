@@ -32,8 +32,8 @@ ul li {
 	list-style: none;
 	line-height: 2;
 }
-#why-us ul {
-	margin-top: 1cm;
+#why-us .user-heading {
+	margin-top: 0.5cm;
 }
 #why-us .heading {
 	margin-bottom: 0.5cm;

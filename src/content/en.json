@@ -13,7 +13,7 @@
     "why_us": {
         "heading":"Why Us",
         "user_a":{
-            "heading":"User A",
+            "heading":"Looking For Services",
             "points":[
                 "Get in contact with all the professionals in your area",
                 "No intermediaries",
@@ -23,7 +23,7 @@
             ]
         },
         "user_b":{
-            "heading":"User B",
+            "heading":"Offer Services",
             "points":[
                 "Get visibility to the potential customers in your area",
                 "Get support from us if needed",
