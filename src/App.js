@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import Body from './components/body';
+import Footer from './components/Footer/Footer';
 import Header from './components/header';
 import en from './content/en.json';
 import es from './content/es.json';
@@ -23,6 +24,7 @@ class App extends Component {
           content={this.state.content} />
         <Body language={this.state.language}
           content={this.state.content} />
+        <Footer />
       </div >
     );
   }
