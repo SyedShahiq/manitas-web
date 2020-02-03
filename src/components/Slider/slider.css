@@ -4,9 +4,8 @@
 .carousel-caption .download i {
     margin-right: 5px;
 }
-.carousel-caption .download .apple {
+.carousel-caption .download a {
     z-index: 11;
-    background: linear-gradient(to left, #91be01, #91be01);
     border-radius: 99px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 10px 20px 0px;
     line-height: 44px;
@@ -23,23 +22,11 @@
     border-width: 0px;
     margin-right: 20px;
 }
-.carousel-caption .download .google-playstore {
-    z-index: 11;
+.apple {
+    background: linear-gradient(to left, #91be01, #91be01);
+}
+.google-playstore {
     background: linear-gradient(to left, #f8931f, #f8931f);
-    border-radius: 99px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 10px 20px 0px;
-    line-height: 44px;
-    font-weight: 900;
-    font-size: 14px;
-    padding: 10px 50px;
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    white-space: normal;
-    filter: blur(0px) grayscale(0%) brightness(100%);
-    opacity: 1;
-    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
-    transform-origin: 50% 50% 0px;
-    border-width: 0px;
 }
 
 .carousel-caption h1 {
