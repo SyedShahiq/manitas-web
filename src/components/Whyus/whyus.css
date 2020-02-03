@@ -8,6 +8,7 @@
 	position: absolute;
 	z-index: 1;
 	text-align:center;
+	color: white;
 }
 .first-col {
 	background: #91be01;
@@ -26,4 +27,14 @@
 }
 #why-us h1 {
 	text-align: center;
+}
+ul li {
+	list-style: none;
+	line-height: 2;
+}
+#why-us ul {
+	margin-top: 1cm;
+}
+#why-us .heading {
+	margin-bottom: 0.5cm;
 }

@@ -13,7 +13,24 @@
     "why_us": {
         "heading":"Why Us",
         "user_a":{
-            "heading":"User A"
+            "heading":"User A",
+            "points":[
+                "Get in contact with all the professionals in your area",
+                "No intermediaries",
+                "Share your experience and find out about the experience of other members of our community in reviews",
+                "You can contact directly the professionals or you can post your problem and wait for the best offer",
+                "We connect, we don’t charge"
+            ]
+        },
+        "user_b":{
+            "heading":"User B",
+            "points":[
+                "Get visibility to the potential customers in your area",
+                "Get support from us if needed",
+                "Get high ratings and become the most working/wanted/etc",
+                "Offer proactively your best price, or wait to be contacted. Or, for the first time - both",
+                "All you earn is yours, no charge from our side"
+            ]
         }
     }
 }
