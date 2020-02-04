@@ -5,7 +5,7 @@ class NavbarItem extends Component {
         return (
             <React.Fragment>
                 <li className="nav-item">
-                    <a className="nav-link" href={"#" + this.props.ref_link}>{this.props.content}</a>
+                    <a className="nav-link" href={"#" + this.props.ref_link}>{this.props.children}{this.props.content}</a>
                 </li>
             </React.Fragment>
         )

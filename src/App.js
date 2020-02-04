@@ -24,7 +24,7 @@ class App extends Component {
           content={this.state.content} />
         <Body language={this.state.language}
           content={this.state.content} />
-        <Footer />
+        <Footer content={this.state.content} />
       </div >
     );
   }

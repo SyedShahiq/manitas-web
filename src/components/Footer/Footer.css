@@ -1,6 +1,6 @@
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 section {
-    padding: 60px 0 0 0;
+    padding: 50px 0 0 0;
 }
 
 section .section-title {
@@ -48,13 +48,11 @@ section .section-title {
 	color:#eeeeee;
 }
 #footer ul.quick-links li{
-	padding: 3px 0;
 	-webkit-transition: .5s all ease;
 	-moz-transition: .5s all ease;
 	transition: .5s all ease;
 }
 #footer ul.quick-links li:hover{
-	padding: 3px 0;
 	margin-left:5px;
 	font-weight:700;
 }
@@ -64,7 +62,18 @@ section .section-title {
 #footer ul.quick-links li:hover a i {
     font-weight: 700;
 }
-
+#footer .email,#footer .phone-number,#footer .address {
+    color: white;
+    margin-bottom: 10px;
+}
+#footer .email i,#footer .phone-number i,#footer .address i {
+    margin-right: 5px;
+    font-size: 20px;
+    transition: .5s all ease;
+}
+#footer .nav-link {
+    padding: 0;
+}
 @media (max-width:767px){
 	#footer h5 {
     padding-left: 0;
