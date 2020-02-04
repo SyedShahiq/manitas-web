@@ -2,11 +2,11 @@ import React, { Component } from 'react';
 import './whyus.css';
 class WhyUs extends Component {
     render() {
-        var user_a_points = this.props.content.why_us.user_a.points.map((point) => {
-            return <li>{point}</li>
+        var user_a_points = this.props.content.why_us.user_a.points.map((point,index) => {
+            return <li key={index}>{point}</li>
         });
-        var user_b_points = this.props.content.why_us.user_b.points.map((point) => {
-            return <li>{point}</li>
+        var user_b_points = this.props.content.why_us.user_b.points.map((point,index) => {
+            return <li key={index}>{point}</li>
         })
         return (
             <React.Fragment>
