@@ -1,7 +1,8 @@
 {
-    "header":{
-        "services":"Services",
-        "why_us":"Why Us"
+    "header": {
+        "services": "Services",
+        "why_us": "Why Us",
+        "blogs": "Blogs"
     },
     "slider": {
         "first": {
@@ -11,10 +12,10 @@
         }
     },
     "why_us": {
-        "heading":"Why Us",
-        "user_a":{
-            "heading":"Looking For Services",
-            "points":[
+        "heading": "Why Us",
+        "user_a": {
+            "heading": "Looking For Services",
+            "points": [
                 "Get in contact with all the professionals in your area",
                 "No intermediaries",
                 "Share your experience and find out about the experience of other members of our community in reviews",
@@ -22,9 +23,9 @@
                 "We connect, we don’t charge"
             ]
         },
-        "user_b":{
-            "heading":"Offer Services",
-            "points":[
+        "user_b": {
+            "heading": "Offer Services",
+            "points": [
                 "Get visibility to the potential customers in your area",
                 "Get support from us if needed",
                 "Get high ratings and become the most working/wanted/etc",

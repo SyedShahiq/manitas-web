@@ -26,6 +26,7 @@ class Blogs extends Component {
         return (
             <React.Fragment>
                 <div id="blogs" className="container blogs">
+                    <h1 className="heading">Blogs</h1>
                     <div className="row">
                         {blogs}
                     </div>

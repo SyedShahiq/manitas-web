@@ -1,7 +1,8 @@
 {
     "header": {
         "services": "Servicios",
-        "why_us": "Porque nosotros"
+        "why_us": "Porque nosotros",
+        "blogs": "Blogs"
     },
     "slider": {
         "first": {
@@ -11,10 +12,10 @@
         }
     },
     "why_us": {
-        "heading":"Porque nosotros",
-        "user_a":{
-            "heading":"Usuario A",
-            "points":[
+        "heading": "Porque nosotros",
+        "user_a": {
+            "heading": "Usuario A",
+            "points": [
                 "Póngase en contacto con todos los profesionales de su área",
                 "Sin intermediarios",
                 "Comparta su experiencia y descubra la experiencia de otros miembros de nuestra comunidad en las reseñas",
@@ -22,9 +23,9 @@
                 "Nos conectamos, no cobramos"
             ]
         },
-        "user_b":{
-            "heading":"Usuario B",
-            "points":[
+        "user_b": {
+            "heading": "Usuario B",
+            "points": [
                 "Obtenga visibilidad para los clientes potenciales en su área",
                 "Obtenga apoyo de nosotros si es necesario",
                 "Obtén altas calificaciones y conviértete en el más trabajador / deseado / etc",
