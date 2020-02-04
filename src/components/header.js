@@ -19,6 +19,7 @@ class Header extends Component {
               <NavbarItem ref_link="services" content={this.props.content.header.services}/>
               <NavbarItem ref_link="why-us" content={this.props.content.header.why_us}/>
               <NavbarItem ref_link="blogs" content={this.props.content.header.blogs}/>
+              <NavbarItem ref_link="about-us" content={this.props.content.header.about_us}/>
               <li className="nav-item dropdown">
                 <a className="nav-link dropdown-toggle" href="/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   {this.props.language}

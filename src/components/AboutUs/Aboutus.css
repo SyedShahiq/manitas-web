@@ -1,0 +1,11 @@
+#about-us {
+    clear: both;
+    padding-top: 30px;
+}
+#about-us .heading {
+    text-align: center;
+    margin-bottom: 0.5cm;
+}
+#about-us .content {
+    text-align: initial;
+}

@@ -2,7 +2,8 @@
     "header": {
         "services": "Servicios",
         "why_us": "Porque nosotros",
-        "blogs": "Blogs"
+        "blogs": "Blogs",
+        "about_us": "Sobre nosotros"
     },
     "slider": {
         "first": {
@@ -33,5 +34,9 @@
                 "Todo lo que gana es suyo, sin cargo de nuestra parte"
             ]
         }
+    },
+    "about_us": {
+        "heading": "Sobre nosotros",
+        "body": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
     }
 }

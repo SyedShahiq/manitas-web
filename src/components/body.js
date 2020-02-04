@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import AboutUs from './AboutUs/Aboutus';
 import Blogs from './Blogs/Blogs';
 import Services from './Services/services';
 import Slider from './Slider/slider';
@@ -12,6 +13,7 @@ class Body extends Component {
         <Services language={this.props.language} />
         <WhyUs content={this.props.content} />
         <Blogs />
+        <AboutUs content={this.props.content} />
       </main>
     );
   }
