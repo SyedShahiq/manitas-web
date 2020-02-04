@@ -7,7 +7,7 @@ class Header extends Component {
     return (
       <header className="site-header">
         <nav className="navbar navbar-expand-lg navbar-light container">
-          <a className="navbar-brand" href="#">
+          <a className="navbar-brand" href="/">
             <img className="col-sm-2" src={require('./logo.png')} alt="Logo" />
           </a>
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

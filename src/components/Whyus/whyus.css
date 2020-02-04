@@ -1,7 +1,7 @@
 .wrapper {
 	width: 100%;
 	float: left;
-	height: 456px;
+	height: 400px;
 }
 .wrapper > .column {
 	width: 50%;
@@ -14,13 +14,13 @@
 	background: #91be01;
 	opacity: 1;
 	left: 0;
-	height: 400px;
+	height: 350px;
 }
 .second-col {
 	background: #f8931f;
 	opacity: 1;
 	left: 50%;
-	height: 400px;
+	height: 350px;
 }
 .why-us {
 	margin-top: 30px;
@@ -34,6 +34,7 @@ ul li {
 }
 #why-us .user-heading {
 	margin-top: 0.5cm;
+	margin-bottom: 0.5cm;
 }
 #why-us .heading {
 	margin-bottom: 0.5cm;
