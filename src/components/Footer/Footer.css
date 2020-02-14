@@ -17,6 +17,10 @@ section {
     padding: 10px;
     margin-right: 6px;
 }
+#footer .footer-download .apple:hover,#footer .footer-download .google-playstore:hover{
+    background: white;
+    color: #424242;
+}
 .footer-download .fa {
     margin-right: 5px;
 }
