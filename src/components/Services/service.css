@@ -6,3 +6,9 @@
     padding-left: 30px;
     font-size: 1rem;
 }
+.popover {
+    opacity: 1 !important;
+}
+.list-group-item {
+    padding: 0.35rem 0.75rem !important;
+}
