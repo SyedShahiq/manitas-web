@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import NavbarItem from '../Navbar/NavbarItem';
 import './Footer.css';
 class Footer extends Component {
     render() {
@@ -8,13 +7,11 @@ class Footer extends Component {
                 <div className="container">
                     <div className="row text-center text-xs-center text-sm-left text-md-left">
                         <div className="col-xs-12 col-sm-4 col-md-4">
-                            <h5>Quick links</h5>
-                            <ul className="list-unstyled quick-links">
-                                <NavbarItem ref_link="services" content={this.props.content.header.services}><i className="fa fa-angle-double-right"></i></NavbarItem>
-                                <NavbarItem ref_link="why-us" content={this.props.content.header.why_us}><i className="fa fa-angle-double-right"></i></NavbarItem>
-                                <NavbarItem ref_link="blogs" content={this.props.content.header.blogs}><i className="fa fa-angle-double-right"></i></NavbarItem>
-                                <NavbarItem ref_link="about-us" content={this.props.content.header.about_us}><i className="fa fa-angle-double-right"></i></NavbarItem>
-                            </ul>
+                            <h5>Download Now</h5>
+                            <div className="footer-download">
+                                <a href="/" className="apple"><i className="fa fa-apple"></i>App Store</a>
+                                <a href="/" className="google-playstore"><i className="fa fa-android"></i>Google Play</a>
+                            </div>
                         </div>
                         <div className="col-xs-12 col-sm-4 col-md-4">
                             <h5>Contact</h5>

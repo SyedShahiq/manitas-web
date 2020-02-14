@@ -2,7 +2,24 @@
 section {
     padding: 50px 0 0 0;
 }
-
+#footer .footer-download .apple,#footer .footer-download .google-playstore{
+    background: none;
+    color: #eee;
+    height: 54px;
+    line-height: 50px;
+    min-width: 0;
+    width: 100%;
+    max-width: 280px;
+    margin: 10px;
+    margin: 0 auto;
+    text-transform: uppercase;
+    border: 2px solid #eee;
+    padding: 10px;
+    margin-right: 6px;
+}
+.footer-download .fa {
+    margin-right: 5px;
+}
 section .section-title {
     text-align: center;
     color: #007b5e;
