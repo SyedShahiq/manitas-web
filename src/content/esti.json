@@ -17,21 +17,21 @@
         "user_a": {
             "heading": "Looking For Services",
             "points": [
-                "Get in contact with all the professionals in your area",
-                "No intermediaries",
-                "Share your experience and find out about the experience of other members of our community in reviews",
-                "You can contact directly the professionals or you can post your problem and wait for the best offer",
-                "We connect, we don’t charge"
+                "Võtke ühendust kõigi oma ala professionaalidega",
+                "Vahendajaid pole",
+                "Jagage oma kogemusi ja lugege arvustusi meie kogukonna teiste liikmete kogemuste kohta",
+                "Võite pöörduda otse spetsialistide poole või võite oma probleemi postitada ja oodata parimat pakkumist",
+                "Me ühendame, me ei võta tasu"
             ]
         },
         "user_b": {
             "heading": "Service Provider",
             "points": [
-                "Get visibility to the potential customers in your area",
-                "Get support from us if needed",
-                "Get high ratings and become the most working/wanted/etc",
-                "Offer proactively your best price, or wait to be contacted. Or, for the first time - both",
-                "All you earn is yours, no charge from our side"
+                "Saate oma piirkonna potentsiaalsetele klientidele nähtavuse",
+                "Vajadusel saate meilt tuge",
+                "Saage kõrgeid hinnanguid ja muutuge kõige töötavamaks / ihaldatuimaks / jne",
+                "Paku ennetavalt oma parimat hinda või oodake, kuni meiega ühendust võetakse. Või esimest korda - mõlemad",
+                "Kõik, mida teenite, on teie enda oma, meie poolelt ei võeta mingit tasu"
             ]
         }
     },

@@ -15,23 +15,23 @@
     "why_us": {
         "heading": "Porque nosotros",
         "user_a": {
-            "heading": "Usuario A",
+            "heading": "Buscando servicios",
             "points": [
-                "Póngase en contacto con todos los profesionales de su área",
+                "Pónte en contacto con todos los profesionales en tu área",
                 "Sin intermediarios",
-                "Comparta su experiencia y descubra la experiencia de otros miembros de nuestra comunidad en las reseñas",
-                "Puede contactar directamente a los profesionales o puede publicar su problema y esperar la mejor oferta",
-                "Nos conectamos, no cobramos"
+                "Comparte tu experiencia y descubre la experiencia de otros miembros de nuestra comunidad en las reseñas",
+                "Puedes contactar directamente con los profesionales o puedes publicar tu tarea y esperar la mejor oferta",
+                "Nosotros conectamos, no cobramos"
             ]
         },
         "user_b": {
-            "heading": "Usuario B",
+            "heading": "Proveedor de servicio",
             "points": [
-                "Obtenga visibilidad para los clientes potenciales en su área",
+                "Obten visibilidad para los potenciales clientes en tu área",
                 "Obtenga apoyo de nosotros si es necesario",
-                "Obtén altas calificaciones y conviértete en el más trabajador / deseado / etc",
-                "Ofrezca proactivamente su mejor precio, o espere a ser contactado. O, por primera vez, ambos",
-                "Todo lo que gana es suyo, sin cargo de nuestra parte"
+                "Obtén altas calificaciones y conviértete en el profesional mas contratado",
+                "Ofrece proactivamente tu mejor precio, o espera a ser contactado. O, por primera vez, ambos en la misma aplicacion",
+                "Todo lo que ganas es tuyo, sin ningun cargo de nuestra parte"
             ]
         }
     },

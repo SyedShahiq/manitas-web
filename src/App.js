@@ -5,15 +5,34 @@ import Footer from './components/Footer/Footer';
 import Header from './components/header';
 import en from './content/en.json';
 import es from './content/es.json';
+import esti from './content/esti.json';
+import ru from './content/ru.json';
 class App extends Component {
   state = {
     "language": "en",
     "content": en,
   }
   languageChanger = (language) => {
+    if (language === 'en'){
+      this.setState({
+        "content": en
+      })
+    } else if (language === 'es') {
+      this.setState({
+        "content": es
+      })
+    } else if (language === 'ru') {
+      this.setState({
+        "content": ru
+      })
+
+    } else if (language === 'esti') {
+      this.setState({
+        "content": esti
+      })
+    }
     this.setState({
       "language": language,
-      "content": language === 'en' ? en : es
     })
   }
   render() {

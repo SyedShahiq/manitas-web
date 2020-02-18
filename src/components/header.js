@@ -27,6 +27,8 @@ class Header extends Component {
                 <div className="dropdown-menu" aria-labelledby="navbarDropdown">
                   <div onClick={() => this.props.languageChanger("en")} className="dropdown-item">English</div>
                   <div onClick={() => this.props.languageChanger("es")} className="dropdown-item">Español</div>
+                  <div onClick={() => this.props.languageChanger("ru")} className="dropdown-item">Russian</div>
+                  <div onClick={() => this.props.languageChanger("esti")} className="dropdown-item">Esti</div>
                 </div>
               </li>
             </ul>
