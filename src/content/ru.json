@@ -1,21 +1,21 @@
 {
     "header": {
-        "services": "Services",
-        "why_us": "Why Us",
-        "blogs": "Blogs",
-        "about_us": "About Us"
+        "services": "Сервисы",
+        "why_us": "Почему нас",
+        "blogs": "Блоги",
+        "about_us": "Насчет нас"
     },
     "slider": {
         "first": {
-            "heading_1": "Get Your Tasks Done!",
-            "heading_2": "Let us help you",
-            "heading_3": "Or you can provide your services and earn MORE!"
+            "heading_1": "Выполни свои задачи!",
+            "heading_2": "Позвольте нам помочь вам",
+            "heading_3": "Или вы можете предоставлять свои услуги и зарабатывать БОЛЬШЕ!"
         }
     },
     "why_us": {
-        "heading": "Why Us",
+        "heading": "Почему нас",
         "user_a": {
-            "heading": "Looking For Services",
+            "heading": "В поисках услуг",
             "points": [
                 "Свяжитесь со всеми мастерами в вашем районе",
                 "Впервые платформа без посредников",
@@ -25,7 +25,7 @@
             ]
         },
         "user_b": {
-            "heading": "Service Provider",
+            "heading": "Поставщик услуг",
             "points": [
                 "Получите бесплатную рекламу перед потенциальными клиентами в вашем районе",
                 "Поддержка от Манитас, в случае необходимости",
@@ -36,7 +36,7 @@
         }
     },
     "about_us": {
-        "heading": "About Us",
+        "heading": "Насчет нас",
         "body": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
     }
 }
