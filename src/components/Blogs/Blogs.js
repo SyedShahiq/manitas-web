@@ -19,7 +19,7 @@ class Blogs extends Component {
     }
     render() {
         var blogs = this.state.posts.slice(0, 3).map((post, index) => {
-            return <Blog key={index} title={post.title} body={post.body}></Blog>
+            return <Blog key={index} post_id={post.id} title={post.title} body={post.body}></Blog>
         })
         return (
             <React.Fragment>

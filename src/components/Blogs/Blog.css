@@ -9,3 +9,11 @@
     font-size: 22px;
     color: #000000;
 }
+.post-link {
+    margin-top: 10px;
+    background: #424244;
+    color:#ffffff;
+    padding: 0.7rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}

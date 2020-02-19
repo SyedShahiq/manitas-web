@@ -1,0 +1,15 @@
+.single-blog {
+    padding-top: 0px !important;
+}
+.single-blog .heading {
+    text-align: center;
+    background:#91be19;
+    padding: 3rem;
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+    color: #ffffff;
+}
+.single-blog .blog-body {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}

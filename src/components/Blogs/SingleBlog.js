@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
+import renderHTML from 'react-render-html';
 import axios from '../../axios';
-import Blog from './Blog';
-import './Blogs.css';
+import './SingleBlog.css';
 
 class SingleBlog extends Component {
     state = {
-        posts: []
+        posts: {}
     }
-    componentDidMount() {
-        axios.get('/api/blogs/')
+    componentWillMount() {
+        var id = this.props.match.params.id;
+        axios.get('/api/blogs/'+id+'/')
             .then(response => {
                 this.setState({
                     posts: response.data
@@ -18,18 +19,14 @@ class SingleBlog extends Component {
             });
     }
     render() {
-        var blogs = this.state.posts.slice(0, 3).map((post, index) => {
-            return <Blog key={index} title={post.title} body={post.body}></Blog>
-        })
         return (
             <React.Fragment>
-                <div id="blogs" className="container blogs">
-                    <h1 className="heading">Blogs</h1>
-                    <div className="row">
-                        {blogs}
+                <div className="single-blog">
+                <h1 className="heading">{this.state.posts.title}</h1>
+                    <div className="container blog-body">
+                        {Object.keys(this.state.posts).length > 0 ? renderHTML(this.state.posts.body):''}
                     </div>
                 </div>
-
             </React.Fragment>
         )
     }
