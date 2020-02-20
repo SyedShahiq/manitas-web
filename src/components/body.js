@@ -12,7 +12,7 @@ class Body extends Component {
         <Slider content={this.props.content} />
         <Services language={this.props.language} />
         <WhyUs content={this.props.content} />
-        <Blogs />
+        <Blogs title="Blogs" />
         <AboutUs content={this.props.content} />
       </main>
     );

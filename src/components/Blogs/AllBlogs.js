@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import axios from '../../axios';
+import './AllBlogs.css';
 import Blog from './Blog';
-import './Blogs.css';
 
-class Blogs extends Component {
+class AllBlogs extends Component {
     state = {
         posts: []
     }
@@ -19,18 +18,15 @@ class Blogs extends Component {
             });
     }
     render() {
-        var blogs = this.state.posts.slice(0, 3).map((post, index) => {
+        var blogs = this.state.posts.map((post, index) => {
             return <Blog key={index} post_id={post.id} title={post.title} body={post.body}></Blog>
         })
         return (
             <React.Fragment>
-                <div id="blogs" className="container blogs">
-                    <h1 className="heading">{this.props.title}</h1>
+                <div id="blogs" className="container all-blogs">
+                    <h1 className="heading">Blogs</h1>
                     <div className="row">
                         {blogs}
-                    </div>
-                    <div className="more">
-                        <Link className="all-posts" to="/posts/">All Posts</Link>
                     </div>
                 </div>
 
@@ -38,4 +34,4 @@ class Blogs extends Component {
         )
     }
 }
-export default Blogs;
+export default AllBlogs;

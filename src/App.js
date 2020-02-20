@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import './App.css';
+import AllBlogs from './components/Blogs/AllBlogs';
 import SingleBlog from './components/Blogs/SingleBlog';
 import Body from './components/body';
 import Footer from './components/Footer/Footer';
@@ -47,6 +48,7 @@ class App extends Component {
             <Route exact path="/post/:id" component={SingleBlog} />
             <Route exact path="/" component={()=><Body language={this.state.language}
             content={this.state.content} />} />
+            <Route exact path="/posts/" component={AllBlogs} />
           <Footer content={this.state.content} />
         </Router>
       </div >

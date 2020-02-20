@@ -11,9 +11,11 @@
 }
 .post-link {
     margin-top: 10px;
-    background: #424244;
-    color:#ffffff;
-    padding: 0.7rem;
+    color:#f8931f;
     text-decoration: none;
     text-transform: uppercase;
+}
+.post-link:hover {
+    text-decoration: none;
+    color: #f8931f;
 }

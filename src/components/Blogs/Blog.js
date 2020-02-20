@@ -10,7 +10,7 @@ class Blog extends Component {
                     <img className="blog-img" height="200" width="350" src={require('../Slider/images/slider4.jpg')} alt="Blogs"></img>
                     <h5 className="post-title">{this.props.title}</h5>
                     <div>{renderHTML(this.props.body.substr(0, 250))}</div>
-                    <Link className="post-link" to={"post/" + this.props.post_id}>Read More</Link>
+                    <Link className="post-link" to={"/post/" + this.props.post_id}>Read More</Link>
                 </div>
             </React.Fragment>
         )
